@@ -1,0 +1,130 @@
+.bod {
+  min-height: 78vh;
+  box-sizing: border-box;
+}
+
+footer {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  padding-bottom: 1px;
+}
+
+footer > div > a > img {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height: 95%;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#send {
+  width: fit-content;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+#message {
+  height: 10vh;
+}
+
+.category > form > fieldset {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.carousel-inner {
+  height: 20vh;
+}
+
+.carousel-item {
+  height: 20vh;
+}
+
+.carta {
+  padding: 3rem 3rem 0;
+}
+
+#carta2 {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* table,td {
+  border: 1px solid;
+} */
+/* td,th {
+  padding-left: 0.5rem;
+}
+td {
+  height: 30px;
+}
+
+th {
+  background-color: grey;
+} */
+
+.table td{
+  text-align:center;
+}
+
+.card{
+  border-radius: 17px;
+  background: #ffffff;
+  box-shadow:  21px 21px 42px #cccccc,
+               -21px -21px 42px #ffffff;
+}
+
+.card:hover{
+/* muy mal ux que al hacer esto se mueva el boton, pero queda lindo https://media.tenor.com/JWOqX2E7rFoAAAAi/sadpepe-sad.gif */
+  transition: all 0.5s;
+  transform: scale(1.2);
+  margin: 1rem 0;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+div>label:hover{
+  text-decoration-line: underline overline;
+  -moz-text-decoration-line: underline overline;
+}
+
+@media only screen and (max-width:768px){
+  .carta {
+    padding: 1rem 3rem 0;
+  }
+
+}
+
+@media only screen and (max-width:480px){
+  .card:hover{
+    transform: scale(1.03, 0.95);
+    -webkit-transform: scale(1.03, 0.95);
+    -moz-transform: scale(1.03, 0.95);
+    -ms-transform: scale(1.03, 0.95);
+    -o-transform: scale(1.03, 0.95);
+  }
+
+}
+
+@media only screen and (max-width:320px){
+  .carta {
+    padding: 0.5rem 0.5rem 0;
+  }
+
+}
